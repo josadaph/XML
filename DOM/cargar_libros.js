@@ -21,7 +21,7 @@ function cargarXML() {
                 const titulo = libros[i].getElementsByTagName("titulo")[0].textContent;
                 const autor = libros[i].getElementsByTagName("autor")[0].textContent;
                 const anio = libros[i].getElementsByTagName("anio")[0].textContent;
-                salida += '<li><strong>${titulo}</strong> por ${autor} (Año: ${anio})</li>';
+                salida += `<li><strong>${titulo}</strong> por ${autor} (Año: ${anio})</li>`;
             }
 
             salida += "</ul>";
