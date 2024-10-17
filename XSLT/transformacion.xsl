@@ -15,8 +15,7 @@
                             <strong>
                                 <xsl:value-of select="titulo" />
                             </strong>
-                            por <xsl:value-of select="autor" /> (Año: <xsl:value-of select="anio" />
-                            ) </li>
+        por <xsl:value-of select="autor" /> (Año: <xsl:value-of select="anio" /> ) </li>
                     </xsl:for-each>
                 </ul>
             </body>
